@@ -7,7 +7,7 @@ const SearchResults = ({results}: SearchResultsProps) => {
 
     return (
         <Accordion style={{maxWidth: '800px', margin: '0 auto'}}>
-            {results.map((result, index) => (
+            {(results.length > 0) ? results.map((result, index) => (
                 <Accordion.Item eventKey={String(index)} key={result.name}>
                     <Accordion.Header>
                         <div>
@@ -25,7 +25,7 @@ const SearchResults = ({results}: SearchResultsProps) => {
                         ))}
                     </Accordion.Body>
                 </Accordion.Item>
-            ))}
+            )) : <h2>No characters found...</h2>}
         </Accordion>
     )
 }
