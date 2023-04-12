@@ -1,0 +1,4 @@
+.film_container:not(:last-child) {
+  border-bottom: 1px solid var(--bs-border-color); 
+  margin-bottom: 15px
+}

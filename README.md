@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# StarWars Character Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An application that allows you to search for any hero from the StartWars world. This displays information about the hero's place of residence and the movies in which they appeared.
 
-## Available Scripts
+Available at [StarWars Character Search App]().
+
+## Available Scripts for further development
 
 In the project directory, you can run:
 
